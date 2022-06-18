@@ -15,6 +15,13 @@ window.addEventListener("click", function (e) {
   }
 });
 
+// Alert
+const alert = document.querySelector("#alert");
+
+alert.addEventListener("click", function () {
+  myAlert.classList.toggle("hidden");
+});
+
 //Navbar fixed
 window.onscroll = function () {
   const header = document.querySelector("header");
